@@ -1,8 +1,16 @@
 <template>
+  <div>
+    <LikeHeader></LikeHeader>
+    <LikeNumber></LikeNumber>
+  </div>
 </template>
 
 <script>
-</script>
+import LikeHeader from './components/LikeHeader.vue'
 
-<style>
-</style>
+export default {
+  components: {
+    LikeHeader
+  }
+}
+</script>
